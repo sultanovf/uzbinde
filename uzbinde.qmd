@@ -78,8 +78,8 @@ textOutput("cnt_m")
 textOutput("cnt_t")
 ```
 
+::: {.card expandable="false" scrolling="false"}
 ```{r}
-##| content: card-toolbar
 
 vec_y <- unique(data$Year)                   # years in the data
 #last_y <- as.character(max(as.integer(unique(data$Year)))) # last year
@@ -94,10 +94,12 @@ selectInput(
   #inline = TRUE
 )
 ```
+::: 
 
 
 **Data Source:** *©Statistisches Bundesamt (Destatis), 2025 | Stand: 31.07.2025* <br>
 The figures in boxes and graphs are from the last year **(`r last(unique(data$Year))`)** for which data is available. When selecting an earlier year from the drop-down menu (left), the figures for selected year will be updated accordingly.
+
 
 ## Row {height=75%}
 
