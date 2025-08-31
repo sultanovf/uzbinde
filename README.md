@@ -6,4 +6,4 @@ This is a brief overview of Uzbeks living in Germany, according to their residen
 Link from [dashboard](https://sultanov.shinyapps.io/uzbinde/) 
 <br>
 <br>
-![vid](pics/dashboard.gif)
+![vid](pics/db-gh.gif)
